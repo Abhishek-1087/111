@@ -1,0 +1,18 @@
+version: 2
+sources:
+  - name: Final_project
+    database: JMAN_ASSESSMENT  # Replace with the actual database
+    schema: JMAN
+    tables:
+      - name: CERTIFICATEDETAILS
+        description: "Table containing employee certifications" 
+      - name: EVENTS
+        description: "Table containing information about Events" 
+      - name: SKILLSDETAILS
+        description: "Table containing information about Employees Skills" 
+      - name: USERINFOS
+        description: "Table containing information about Users " 
+      - name: USEREVENTS
+        description: "Table containing information about User's registered events" 
+      - name: PROJECTDETAILS
+        description: "Table containing information about Projects" 

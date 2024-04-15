@@ -1,0 +1,26 @@
+version : 2
+models:
+  - name : Approved certificate
+    description : Get approved certificate name 
+    columns:
+      - name: EMPLOYEE_ID
+        description : Id of the employee
+        tests:
+          - not_null
+      - name: NAME
+        description : Name of employee
+        tests:
+          - not_null
+      - name: CERTIFICATE_NAME
+        description : name of certificate
+        tests:
+          - not_null
+      - name: ISSUE_DATE
+        description : issue date of certificate
+      - name: EXPIRE_DATE
+        description : expire date of certificate
+      - name: CERTIFICATE_STATUS
+        description : status of certificate
+        tests:
+          - not_null
+          

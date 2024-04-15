@@ -1,0 +1,14 @@
+version : 2
+models:
+  - name : Average skill's Rating
+    description : Finding out the average skill rating of the organization.
+    columns:
+      - name: skills
+        description : name of all unique skills
+        tests:
+          - unique
+          - not_null
+      - name: AVERAGE_RATING
+        description : Average Rating of all Skills 
+        tests:
+          - not_null

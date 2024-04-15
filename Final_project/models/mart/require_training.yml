@@ -1,0 +1,17 @@
+version : 2
+models:
+  - name : Average skill's Rating
+    description : Finding out the average skill rating of the organization.
+    columns:
+      - name: EMPLOYEE_ID
+        description : Id of the employee
+        tests:
+          - not_null
+      - name: NAME
+        description : Name of employee
+        tests:
+          - not_null
+      - name: SKILLS
+        description : name of skills where rating is less than 3 
+        tests:
+          - not_null

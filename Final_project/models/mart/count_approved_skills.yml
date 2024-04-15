@@ -1,0 +1,23 @@
+version : 2
+models:
+  - name : Approved skill
+    description : count of Approved skills
+    columns:
+      - name: EMPLOYEE_ID
+        description : Id of the employee
+        tests:
+          - not_null
+      - name: NUM_CERTIFICATES
+        description : number of certificate  each employee have
+        tests:
+          - not_null
+      - name: NUM_APPROVED_CERTIFICATES
+        description : number of approved certificate each employee have
+        tests:
+          - not_null
+      - name: NUM_REJECTED_CERTIFICATES
+        description : number of rejected certificate each employee have
+        tests:
+          - not_null
+      
+          

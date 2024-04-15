@@ -1,0 +1,21 @@
+version : 2
+models:
+  - name : Registered User
+    description : Storing details of Registered user .
+    columns:
+      - name: EMPLOYEE_ID
+        description : Id of the employee
+        tests:
+          - not_null
+      - name: NAME
+        description : Name of employee
+        tests:
+          - not_null
+      - name: EMAIL
+        description : Email of employee
+        tests:
+          - not_null
+      - name: EVENT_NAME
+        description : Name of events registered
+        tests:
+          - not_null

@@ -1,0 +1,19 @@
+version : 2
+models:
+  - name : Employee Skills 
+    description : Skills that have rating greater than 3
+    columns:
+      - name: EMPLOYEE_ID
+        description : Id of the employee
+        tests:
+          - not_null
+      - name: NAME
+        description : Name of employee
+        tests:
+          - not_null
+      - name: SKILLS
+        description : name of skills
+        tests:
+          - not_null
+      
+          
